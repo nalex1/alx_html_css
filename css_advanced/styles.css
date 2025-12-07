@@ -1,0 +1,27 @@
+body {
+  width: 1440px;
+  height: 1093px;
+  margin: 20px;
+  display: flex;         /* enables flexbox */
+  align-items: center;   /* vertical centering */
+    justify-content: center;
+
+  background-image: url("images/Object.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1{
+    color:white;
+    width: 684px;          /* width of the text box */
+    height: 151px;
+    letter-spacing: 12px;         /* height of the text box */
+
+    display: flex;         /* enables flexbox */
+    align-items: center;   /* vertical centering */
+    justify-content: center; /* horizontal centering */
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; 
+    
+    font-weight: 684;   /* centers text itself */
+}
