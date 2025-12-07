@@ -23,15 +23,12 @@ h1 {
   font-size: 60px;
   font-family: 'Poppins', sans-serif;
 }
-nav {
+.listoo {
   display: flex;
   justify-content: flex-end;
   align-content: flex-end;
   
-  align-items: center;
-  padding: 20px;
-  margin-inline-end: 20px;
-  gap: 50px; /* space between logo and menu */
+/* space between logo and menu */
 }
 
 nav img {
@@ -46,9 +43,21 @@ nav img {
   padding: 0;
 }
 
-nav ul a {
+.listoo a {
   text-decoration: none;
   color: white;
   font-size: 18px;
   font-weight: 500;
+}
+.middsx{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  
+}
+.imge8{
+  width: 150px;      /* must be equal height */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
