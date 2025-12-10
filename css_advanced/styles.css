@@ -14,6 +14,10 @@
   margin-right: 50px;
   color:antiquewhite;
 }
+.inside-container li {
+  font-family: "Source Sans Pro", sans-serif;
+  color:rgba(255, 255,255, 1);
+}
 .s-container{
   position: absolute;
   top:180px;
@@ -117,14 +121,13 @@ body{
 
 .wrapper{
   margin-top: 40px
-   width:cover;
-   height: ;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 5rem;
-    background-color:rgba(194,113,255,1) ;
+  width: cover;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content : space-around;
+  gap: 5rem;
+  background-color: rgba(194,113,255,1) ;
 }
 .img-container{
     
@@ -138,4 +141,91 @@ body{
     color: rgb(238, 238, 228);
     font-family: "source sans pro";
     font-size: large
+}
+.v-container{
+    display:flex;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.fa-container{
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  color:rgba(194,113,255,1);
+}
+.free-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color:rgba(7, 22, 41, 1);
+  width: cover;
+  height: 502px;
+  font-family: "Source Sans Pro";
+  color: rgba(255, 255,255, 1);
+  font-size: 20px;
+}
+.free-button{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  width:100%;
+  
+
+}
+.f-button{
+background-color: rgba(194,113,255,1);
+border-radius: 10%;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items:center ;
+  gap: 20px;
+}
+
+.flex-cont{
+  display: flex ;
+  flex-direction: column;
+  gap:20px;
+}
+.footer-cont{
+position: absolute;
+width: 1440px;
+height: 249px;
+  background-color: rgba(7, 22, 41, 1);
+}
+.last-img{
+  color:rgba(255, 255,255, 1);
+  display:flex;
+  justify-content:center;
+  padding: 100px;
+}
+.last-log{
+  color:rgba(255, 255,255, 1);
+  display:flex;
+  justify-content:flex-end;
+  align-content:flex-start;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: -100px;
+  gap: 20px;
+}
+.lfooter{
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: center;    /* center horizontally */
+  padding: 20px 0;
+
+}
+.last-pp{
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  
 }
