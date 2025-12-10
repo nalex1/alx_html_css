@@ -1,63 +1,141 @@
-body {
-  margin:0;
-  padding: 0;
-  background-position: top center;
+.f-container{
   display: flex;
-  justify-content: center;
-  background-image: url("images/Object.png");
-  width: 1440px;
-  height: 1093px;
-  position:initial;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  flex-grow: 1;
+  gap:20px;
 
-h1 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  visibility: visible;
-  color:#fcfbfb !important;
-  font-weight: bold;
-  font-size: 60px;
-  font-family: 'Poppins', sans-serif;
 }
-.listoo {
-  display: flex;
+.inside-container{
+  display:flex;
+  flex-grow: 1;
   justify-content: flex-end;
-  align-content: flex-end;
-  
-/* space between logo and menu */
-}
-
-nav img {
-  margin-right: auto; /* keeps logo on the LEFT */
-}
-
-.listoo {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  margin-left: auto;
-  padding: 0;
-}
-
-.listoo a {
+  gap: 20px;
+  list-style-type: none;
   text-decoration: none;
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
+  margin-right: 50px;
+  color:antiquewhite;
 }
-.middsx{
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
+.s-container{
+  position: absolute;
+  top:180px;
+  left:500px;
+  padding: 20px;
+  color: ;
   
 }
-.imge8{
-  width: 150px;      /* must be equal height */
-  height: 150px;
+.spana{
+  font-weight: 60;
+  font-size: 16px;
+  padding: 10px;
+}
+.spanning{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-grow: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  color:rgba(255, 255,255, 1);
+  letter-spacing: 0px;
+  line-height: 100%;
+  
+  
+
+}
+.h-container{
+  padding-bottom: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color:rgba(255, 255,255, 1);
+  letter-spacing: 0px;
+  line-height: 100%;
+  font-weight: 80;
+  font-size: 40px;
+}
+
+body{
+  background-image: url("images/Object.png"); /* path to your image */
+  background-size: cover;          /* makes image fill entire area */
+  background-position: center;     /* centers image */
+  background-repeat: no-repeat;    /* prevents repetition */
+  height: 100vh;                   /* full screen height */
+  width: 100%;
+}
+.s-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(194,113,255,1);
+  font-family: "Source Sans Pro", sans-serif;
+  display:inline-block;
+}
+.buttox{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: absolute;
+  top:380px;
+  left:660px;
+  padding: 20px;
+}
+.third-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
+  gap: 1em;
+}
+.t-container{
+  display: flex;
+  justify-content:right; 
+  align-content:flex-start ;  /* center horizontally */
+  align-items: flex-end;     /* move to the bottom vertically */
+  height: 100vh;
+  position: relative;
+  right: 50%;
+  gap:20px;
+  padding-bottom: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  color:rgba(255, 255,255, 1);
+  letter-spacing: 0px;
+  line-height: 100%;
+  font-weight: 30;
+  font-size: 20px;
+}
+.imggg{
   border-radius: 50%;
-  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+.h2-header{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px;
+  position: relative;
+  top: 50%;
+  left:70%
+}
+
+.wrapper{
+  margin-top: 40px
+   width:cover;
+   height: ;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    background-color:rgba(194,113,255,1) ;
+}
+.img-container{
+    
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 50%;
+    
+}
+.quote-container{
+    flex:1;
+    color: rgb(238, 238, 228);
+    font-family: "source sans pro";
+    font-size: large
 }
