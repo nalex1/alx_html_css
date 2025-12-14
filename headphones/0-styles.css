@@ -1,6 +1,7 @@
 body{
   margin: 0;
   min-height: 100vh;
+  max-width: 1000px center;
 
   background-image: url("images/headphones_hero_1.jpg");
   background-repeat: no-repeat;
@@ -24,6 +25,10 @@ body{
     list-style: none;
     font-family: 'Times New Roman', Times, serif;
     color: blanchedalmond;
+    
+}
+.menuu ul:hover{
+    color: #FF6565;
 }
 .paragraphs{
     display: flex;
@@ -49,4 +54,11 @@ body{
     border-radius: 20px;
     color: blanchedalmond;
     font-size: 20px;
+}
+.paragraphs button:hover{
+    opacity: 0.9;
+}
+.second{
+    padding: 50px;
+    
 }
